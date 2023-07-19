@@ -1,0 +1,10 @@
+.collapseContainer {
+  padding: 70px;
+}
+
+@media only screen and (max-width: 600px) {
+  .collapseContainer {
+    padding: 0px;
+    margin-top: 30px;
+  }
+}
