@@ -1,0 +1,61 @@
+.gallery {
+  position: relative;
+  width: 100%;
+  margin-top: 30px;
+  height: 550px;
+}
+
+.currentPicture {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.leftVector,
+.rightVector {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.leftVector {
+  left: 15px;
+}
+
+.rightVector {
+  right: 15px;
+}
+
+.leftVector:hover,
+.rightVector:hover {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .gallery {
+     height: 300px;
+  }
+
+  .currentPicture {
+     border-radius: 15px;
+  }
+
+  .leftVector,
+  .rightVector {
+     height: 25px;
+     transition: none;
+     opacity: 1;
+  }
+
+  .leftVector {
+     left: 10px;
+  }
+
+  .rightVector {
+     right: 10px;
+  }
+}
