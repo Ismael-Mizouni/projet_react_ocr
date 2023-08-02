@@ -1,5 +1,11 @@
-import styles from '../styles/Card.module.css';
+import styles from '../styles/Card.module.sass';
 import { Link } from 'react-router-dom';
+
+/**
+ * 
+ * @param {*} param0 
+ * @returns 
+ */
 
 function Card({ id, cover, title }) {
    return (

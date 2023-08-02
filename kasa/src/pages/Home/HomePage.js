@@ -2,7 +2,7 @@ import Banner from '../../components/Banner';
 import homeBanner from '../../assets/homeBanner.png';
 import logementsData from '../../datas/logements.json';
 import Card from '../../components/Card';
-import styles from './HomePage.module.css';
+import styles from './HomePage.module.sass';
 
 function HomePage() {
    return (

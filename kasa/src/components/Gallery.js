@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import leftVector from '../assets/leftVector.png';
 import rightVector from '../assets/rightVector.png';
-import styles from '../styles/Gallery.module.css';
+import styles from '../styles/Gallery.module.sass';
 
 function Gallery({ pictures }) {
    const [currentIndex, setCurrentIndex] = useState(0);

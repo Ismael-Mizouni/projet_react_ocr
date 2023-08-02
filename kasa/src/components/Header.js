@@ -1,5 +1,5 @@
 import headerLogo from '../assets/headerLogo.png';
-import styles from '../styles/Header.module.css';
+import styles from '../styles/Header.module.sass';
 
 import { NavLink, useLocation } from 'react-router-dom';
 

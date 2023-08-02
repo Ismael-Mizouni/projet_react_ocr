@@ -1,7 +1,7 @@
 import Banner from '../../components/Banner';
 import aboutBanner from '../../assets/aboutBanner.png';
 import Collapse from '../../components/Collapse';
-import styles from './AboutPage.module.css';
+import styles from './AboutPage.module.sass';
 
 function AboutPage() {
    return (

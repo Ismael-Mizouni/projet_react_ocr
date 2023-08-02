@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Gallery from '../../components/Gallery';
-import styles from './LogementPage.module.css';
+import styles from './LogementPage.module.sass';
 import Collapse from '../../components/Collapse';
 import Rating from '../../components/Ratings';
 
