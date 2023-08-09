@@ -3,6 +3,7 @@ import downVector from "../assets/downVector.png";
 import upVector from "../assets/upVector.png";
 import styles from "../styles/Collapse.module.sass";
 
+
 function Collapse({ title, children, className, contentClassName }) {
   const [isOpen, setIsOpen] = useState(false);
 

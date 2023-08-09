@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import leftVector from '../assets/leftVector.png';
 import rightVector from '../assets/rightVector.png';
 import styles from '../styles/Gallery.module.sass';
@@ -45,6 +45,9 @@ function Gallery({ pictures }) {
                onClick={handleRightClick}
             />
          )}
+         <p className={styles.imageCounter}>
+            {currentIndex + 1}/{pictures.length}
+         </p>
       </div>
    );
 }
